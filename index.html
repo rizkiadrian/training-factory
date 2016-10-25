@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<body >
+<div ng-app="myApp" ng-controller="myController">
+<input type= "text" ng-model="valueA" name="valueA" placeholder="bilangan A" />
+<input type= "text" ng-model="valueB" name="valueB" placeholder="bilangan B"/>
+<button ng-click = "penambahan()">tambah</button>
+<button ng-click = "pengurangan()">kurang</button>
+<button ng-click = "perkalian()">kali</button>
+<button ng-click = "pembagian()">bagi</button>
+<span ng-bind="hasil">
+</div>
+<script src="js/shared/angular.js"></script>
+<script src="js/controllers/mainController.js"></script>
+</body>
+</html>
